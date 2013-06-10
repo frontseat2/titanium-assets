@@ -1,6 +1,8 @@
 # CoffeeScript and LESS compiler for Titanium projects
 
-A system to enable compiled sources easily with your Titanium projects. It has the advantages of:
+A system to enable compiled sources easily with your Titanium projects.
+
+Features:
 
 * Incremental builds. It only compiles files that are new or have changed
 * Does not package CoffeeScript or LESS source files with your Titanium binary
@@ -13,7 +15,13 @@ The system treats your project's Resources directory as a build target for compi
 1. Rename your `Resources` directory to `Resources-static`
 2. Add your CoffeeScript and LESS files into a new directory called `Resources-compile`
 3. Create a directory called `plugins` and recursively copy the `1.0` directory into it
-4. Recommended: Add your `Resources` directory to your .gitignore file similar to your build directories.
+4. To `tiapp.xml` add a plugins section if you don't already have one and register the `titanium-assets` plugin:
+
+    &lt;plugins&gt;
+    <span style='margin-left:2em'>&lt;plugin&gt;titanium-assets&lt;/plugin&gt;</span>
+    &lt;/plugins&gt;
+
+5. Recommended: Add your `Resources` directory to your .gitignore file (like you do with your build files)
 
 The end result is a directory structure that looks roughly like:
 
