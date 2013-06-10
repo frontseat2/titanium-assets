@@ -50,7 +50,7 @@ Things to keep in mind for this early version
 * I've only tested it on my own projects
 
 ## License
-Copyright 2013 Front Seat LLC
+Copyright 2013 Front Seat, LLC
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
