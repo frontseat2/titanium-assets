@@ -1,0 +1,26 @@
+{
+	"name": "ti-compile-resources",
+	"title": "Titanium Compile Resources",
+	"description": "Compiles CoffeeScript and LESS files",
+	"keywords": [
+		"titanium",
+		"coffeescript",
+		"less"
+	],
+	"version": "1.0.0",
+	"author": "John Wana",
+	"maintainers": [
+		"John Wana <john@wana.us>"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/blah???"
+	},
+	"license": "???",
+	"dependencies": {
+	    "coffee-script": "1.4.x",
+	    "async": "*",
+	    "underscore": "*",
+	    "less": "*"
+	}
+}
