@@ -14,7 +14,7 @@ The system treats your project's Resources directory as a build target for compi
 ## Setup
 1. Rename your `Resources` directory to `Resources-static`
 2. Add your CoffeeScript and LESS files into a new directory called `Resources-compile`
-3. Create a directory called `plugins` and recursively copy the `1.0` directory into it
+3. Create a directory called `plugins` and recursively copy the this project directory (`titanium-assets`) into it
 4. To `tiapp.xml` add a plugins section if you don't already have one and register the `titanium-assets` plugin:
 
     &lt;plugins&gt;
